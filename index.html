@@ -49,7 +49,7 @@
             const isTextureCube = Math.random() < 0.1;
             if (isTextureCube) {
                 const textureLoader = new THREE.TextureLoader();
-                textureLoader.load('https://cdn.discordapp.com/attachments/1165970079041728574/1230856952762859580/kasploomy.jpg?ex=6623b45d&is=662262dd&hm=e47a77bc52053ed17b4dcc78190928491b7b1677e5d007c4a68d3256eade606e&', function(texture) {
+                textureLoader.load('https://media.discordapp.net/attachments/1165970079041728574/1230856952762859580/kasploomy.jpg?ex=6625ae9d&is=66245d1d&hm=ba627ad13f72152721e89df29ce76dcf9a586f7fee467a6f8de3947fd41a0098&=&format=webp&width=528&height=528', function(texture) {
                     const geometry = new THREE.BoxGeometry();
                     const material = new THREE.MeshBasicMaterial({ map: texture });
                     const cube = new THREE.Mesh(geometry, material);
